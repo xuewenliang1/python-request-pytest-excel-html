@@ -1,6 +1,7 @@
-import sys
+import sys,os
+sys.path.append("/Users/xuewenliang/Desktop/sad/python-request-pytest-excel-html/utils")
 
-sys.path.append("/Users/xuewenliang/PycharmProjects/new_interface testing/base/utils")
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath("/Users/xuewenliang/PycharmProjects/new_interface testing/base/utils"))))
 import pytest
 from log import log
 from utils import http_method
